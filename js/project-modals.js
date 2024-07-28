@@ -4,7 +4,10 @@ const projectModalGuessMyNumber = document.querySelector(
 const projectModalPigGame = document.querySelector(
   "#personal-project-pig-game"
 );
-const projectModaProTest = document.querySelector("#personal-project-pro-test");
+const projectModaWhatWhereWhen = document.querySelector(
+  "#personal-project-what-where-when-about-it"
+);
+// look here
 const projectModalProjectGoit = document.querySelector(
   "#personal-project-goit"
 );
@@ -18,9 +21,10 @@ const projectOpenBtnGuessMyNumber = document.querySelector(
 const projectOpenBtnPigGame = document.querySelector(
   "#personal-project-pig-game-btn"
 );
-const projectOpenBtnProTest = document.querySelector(
-  "#personal-project-pro-test-btn"
+const projectOpenBtnWhatWhereWhen = document.querySelector(
+  "#personal-project-what-where-when-btn"
 );
+// look here
 const projectOpenBtnProjectGoit = document.querySelector(
   "#personal-project-goit-btn"
 );
@@ -35,7 +39,7 @@ const projectOpenBtnItTest = document.querySelector(
 const projectModals = [
   projectModalGuessMyNumber,
   projectModalPigGame,
-  projectModaProTest,
+  projectModaWhatWhereWhen,
   projectModalProjectGoit,
   projectModalQuestify,
   projectModalItTest,
@@ -43,7 +47,7 @@ const projectModals = [
 const projectBtns = [
   projectOpenBtnGuessMyNumber,
   projectOpenBtnPigGame,
-  projectOpenBtnProTest,
+  projectOpenBtnWhatWhereWhen,
   projectOpenBtnProjectGoit,
   projectOpenBtnQuestify,
   projectOpenBtnItTest,
