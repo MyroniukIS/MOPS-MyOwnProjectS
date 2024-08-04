@@ -259,7 +259,7 @@ body {
   width: 185px;
   margin: 0;
 }
-/*NOT MY MODALS*/
+
 /* PROJECT MODAL */
 
 .project-modal {
@@ -495,8 +495,8 @@ body {
 .experience-dots-item-accent {
   color: var(--c-accent);
 }
-/*NOT MY WORK
-ANOTHER SECTIONS*/
+
+/*---------------------------------ANOTHER SECTIONS*/
 /* COMMON */
 
 .container {
@@ -759,8 +759,7 @@ color .callback-form-font-container {
   flex-direction: column;
 }
 
-/* NOT  MY WORK 
-CALCULATOR FORM SECTION */
+/* CALCULATOR FORM SECTION */
 
 .calculator {
   background: var(--c-dark);
@@ -922,8 +921,7 @@ CALCULATOR FORM SECTION */
   margin-right: 0;
 }
 
-/* NOT  MY WORK 
-MULTI SELECT */
+/* MULTI SELECT */
 
 .calculator-form-input .tech-input-container .choices__item {
   background: var(--c-accent);
@@ -1030,8 +1028,7 @@ MEDIA TABLET
   .front-page-about-me-container {
     align-items: flex-start;
   }
-  /*not my add styles
-   MEDIA TABLET ABOUT */
+  /*   MEDIA TABLET ABOUT */
   .about .container {
     position: relative;
   }
@@ -1065,8 +1062,7 @@ MEDIA TABLET
     width: 320px;
     margin-bottom: 84px;
   }
-  /*not my add styles
-MEDIA TABLET PROGECTS*/
+  /*  MEDIA TABLET PROGECTS*/
   .team-projects-title,
   .personal-projects-title {
     text-align: left;

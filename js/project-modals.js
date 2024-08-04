@@ -1,3 +1,4 @@
+//Personal modal container id-s
 const projectModalGuessMyNumber = document.querySelector(
   "#personal-project-guess_my_number"
 );
@@ -7,14 +8,16 @@ const projectModalPigGame = document.querySelector(
 const projectModaWhatWhereWhen = document.querySelector(
   "#personal-project-what-where-when-about-it"
 );
-// look here
+// -------------look here
 const projectModalProjectGoit = document.querySelector(
   "#personal-project-goit"
 );
 
-const projectModalQuestify = document.querySelector("#team-project-questify");
-const projectModalItTest = document.querySelector("#team-project-it-test");
+//Team modal container id-s
+const projectModalIceCream = document.querySelector("#team-project-ice-cream");
+const projectModalFilmoteka = document.querySelector("#team-project-filmoteka");
 
+//Personal open btns id-s
 const projectOpenBtnGuessMyNumber = document.querySelector(
   "#personal-project-guess_my_number-btn"
 );
@@ -24,16 +27,17 @@ const projectOpenBtnPigGame = document.querySelector(
 const projectOpenBtnWhatWhereWhen = document.querySelector(
   "#personal-project-what-where-when-btn"
 );
-// look here
+// -------------look here
 const projectOpenBtnProjectGoit = document.querySelector(
   "#personal-project-goit-btn"
 );
 
-const projectOpenBtnQuestify = document.querySelector(
-  "#team-project-questify-btn"
+//Team open btns id-s
+const projectOpenBtnIceCream = document.querySelector(
+  "#team-project-ice-cream-btn"
 );
-const projectOpenBtnItTest = document.querySelector(
-  "#team-project-it-test-btn"
+const projectOpenBtnFilmoteka = document.querySelector(
+  "#team-project-filmoteka-btn"
 );
 
 const projectModals = [
@@ -41,16 +45,16 @@ const projectModals = [
   projectModalPigGame,
   projectModaWhatWhereWhen,
   projectModalProjectGoit,
-  projectModalQuestify,
-  projectModalItTest,
+  projectModalIceCream,
+  projectModalFilmoteka,
 ];
 const projectBtns = [
   projectOpenBtnGuessMyNumber,
   projectOpenBtnPigGame,
   projectOpenBtnWhatWhereWhen,
   projectOpenBtnProjectGoit,
-  projectOpenBtnQuestify,
-  projectOpenBtnItTest,
+  projectOpenBtnIceCream,
+  projectOpenBtnFilmoteka,
 ];
 
 projectBtns.forEach((btn, index) => {
