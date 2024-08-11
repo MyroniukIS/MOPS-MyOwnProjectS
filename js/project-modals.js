@@ -8,9 +8,8 @@ const projectModalPigGame = document.querySelector(
 const projectModaWhatWhereWhen = document.querySelector(
   "#personal-project-what-where-when-about-it"
 );
-// -------------look here
-const projectModalProjectGoit = document.querySelector(
-  "#personal-project-goit"
+const projectModalProjectPixelMagicStudio = document.querySelector(
+  "#personal-project-pixel-magic-studio"
 );
 
 //Team modal container id-s
@@ -27,9 +26,8 @@ const projectOpenBtnPigGame = document.querySelector(
 const projectOpenBtnWhatWhereWhen = document.querySelector(
   "#personal-project-what-where-when-btn"
 );
-// -------------look here
-const projectOpenBtnProjectGoit = document.querySelector(
-  "#personal-project-goit-btn"
+const projectOpenBtnProjectPixelMagicStudio = document.querySelector(
+  "#personal-project-pixel-magic-studio-btn"
 );
 
 //Team open btns id-s
@@ -44,7 +42,7 @@ const projectModals = [
   projectModalGuessMyNumber,
   projectModalPigGame,
   projectModaWhatWhereWhen,
-  projectModalProjectGoit,
+  projectModalProjectPixelMagicStudio,
   projectModalIceCream,
   projectModalFilmoteka,
 ];
@@ -52,7 +50,7 @@ const projectBtns = [
   projectOpenBtnGuessMyNumber,
   projectOpenBtnPigGame,
   projectOpenBtnWhatWhereWhen,
-  projectOpenBtnProjectGoit,
+  projectOpenBtnProjectPixelMagicStudio,
   projectOpenBtnIceCream,
   projectOpenBtnFilmoteka,
 ];
